@@ -11,6 +11,7 @@
 5. Provide over-temperature disconnect
 
 ## Features:
+
 1. Atmel AVR Micro: ATMEGA4808 TQFP-32
 1. Hall effect current sensor: TMCS1108
    * Check my inventory for ACS7xx sensors!
@@ -22,9 +23,6 @@
 7. Precision fixed resistor for thermistors?
    * Thermistors: NRL1504F3950B1F
    * Thermistors connect to uC ADC
-8. Power selector IC: AP2411
-9. Low Iq power supply for battery side, switching or linear?
-10. SMT button for battiery status
 
 ## Connectors:
 
@@ -38,22 +36,16 @@
 
 ## Indicators:
 
-1. Bus controlled:
-   * Bus power (from vcc)
-   * Bus active (from CS line)
-2. uC controlled:
-   * Battery SOC (three leds)
-   * Battery health (red/green)
+* No onboard LEDs planned
 
 ## Client Commands:
 
-* See registers.md for addressing and more details
+* See https://github.com/gordonthree/packmonitor for software details
 
 ## Questions:
 
 1. Data logging without a RTC?
   * Chip seems to keep time well enough with occasional updates from master
-1. High side or low side disconnect?
 
 
 ## Resources:
