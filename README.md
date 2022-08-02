@@ -40,7 +40,7 @@
 
 ## Client Commands:
 
-* See https://github.com/gordonthree/packmonitor for software details
+* See [PackMonitor](https://github.com/gordonthree/packmonitor) for software details
 
 ## Questions:
 
