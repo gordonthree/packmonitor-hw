@@ -13,26 +13,26 @@
 ## Features:
 
 1. Atmel AVR Micro: ATMEGA4808 TQFP-32
-1. Hall effect current sensor: TMCS1108
-   * Check my inventory for ACS7xx sensors!
-3. FRAM data storage : I2C FM24C64B
-4. Precision ADC: I2C NAU7802
-5. Hot swap buffer: I2C TCA4311a, PCA9508
+1. Hall effect current sensor: TMCS1108 
+ * Check my inventory for ACS7xx sensors!
+1. FRAM data storage : I2C FM24C64B
+1. Hot swap buffer: I2C TCA4311a, PCA9508
 1. Host side i2c mux: PCA9545A
-6. Max PCB width 18mm
-7. Precision fixed resistor for thermistors?
-   * Thermistors: NRL1504F3950B1F
-   * Thermistors connect to uC ADC
+1. Max PCB width 18mm
+1. Precision fixed resistor for thermistors
+ * Thermistors: NRL1504F3950B1F
+1.
+ * MCU ADC does all measurements, for better or worse.
 
 ## Connectors:
 
 1. Battery side
-   * Battery In and Out (14 ga) - WAGO screw cage
-   * 6-pin jst-xh vertical for three thermistors
+ * Battery In and Out (14 ga) - WAGO screw cage
+ * 6-pin jst-xh vertical for three thermistors
 1. Upstream interface: I2C
-   * JST-xh 6-pin connector +5v, GND, SCL, GND, SDA, GND
-   * TCA4311 on battery side
-   * I2C switch on host side (might not need)
+ * JST-xh 6-pin connector +5v, GND, SCL, GND, SDA, GND
+ * TCA4311 on battery side
+ * I2C switch on host side (might not need)
 
 ## Indicators:
 
@@ -44,9 +44,7 @@
 
 ## Questions:
 
-1. Data logging without a RTC?
-  * Chip seems to keep time well enough with occasional updates from master
-
+* Will I finish in time?
 
 ## Resources:
 
