@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -8507,7 +8507,7 @@ High-power, low thermal resistance package.</description>
 <part name="TR2" library="rcl" deviceset="R-US_" device="R0805" value="50K"/>
 <part name="TR3" library="rcl" deviceset="R-US_" device="R0805" value="50K"/>
 <part name="GND10" library="bt" deviceset="GND" device=""/>
-<part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-06-PIN" device="-LONG-PAD" value=""/>
+<part name="HOST_BUS" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-06-PIN" device="-LONG-PAD" value=""/>
 <part name="THERM" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-06-PIN" device="-ROUND-PAD" value=""/>
 <part name="U$7" library="bt" deviceset="VCC" device=""/>
 <part name="RBUS1" library="rcl" deviceset="R-US_" device="R0805" value="50K"/>
@@ -8518,14 +8518,15 @@ High-power, low thermal resistance package.</description>
 <part name="RGATE2" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
 <part name="U$8" library="bt" deviceset="VCC" device=""/>
 <part name="GND11" library="bt" deviceset="GND" device=""/>
-<part name="CACS" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="CACS2" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="CIN1" library="rcl" deviceset="C-US" device="C1206" value="120u"/>
 <part name="IC3" library="microchip-special" deviceset="AVRXDA32" device="TQFP"/>
 <part name="QCHG" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDS6630A" value="NFET"/>
 <part name="QDIS" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDS6630A" value="NFET"/>
 <part name="GND6" library="bt" deviceset="GND" device=""/>
 <part name="RGATE1" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
-<part name="RENAPD" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="RENA" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="CACS1" library="rcl" deviceset="C-US" device="C0603" value="1n"/>
 </parts>
 <sheets>
 <sheet>
@@ -8558,12 +8559,12 @@ High-power, low thermal resistance package.</description>
 <instance part="TR2" gate="G$1" x="154.94" y="157.48"/>
 <instance part="TR3" gate="G$1" x="154.94" y="147.32"/>
 <instance part="GND10" gate="1" x="142.24" y="137.16"/>
-<instance part="X1" gate="-1" x="-71.12" y="86.36" rot="MR0"/>
-<instance part="X1" gate="-2" x="-71.12" y="83.82" rot="MR0"/>
-<instance part="X1" gate="-3" x="-71.12" y="81.28" rot="MR0"/>
-<instance part="X1" gate="-4" x="-71.12" y="78.74" rot="MR0"/>
-<instance part="X1" gate="-5" x="-71.12" y="76.2" rot="MR0"/>
-<instance part="X1" gate="-6" x="-71.12" y="73.66" rot="MR0"/>
+<instance part="HOST_BUS" gate="-1" x="-71.12" y="86.36" rot="MR0"/>
+<instance part="HOST_BUS" gate="-2" x="-71.12" y="83.82" rot="MR0"/>
+<instance part="HOST_BUS" gate="-3" x="-71.12" y="81.28" rot="MR0"/>
+<instance part="HOST_BUS" gate="-4" x="-71.12" y="78.74" rot="MR0"/>
+<instance part="HOST_BUS" gate="-5" x="-71.12" y="76.2" rot="MR0"/>
+<instance part="HOST_BUS" gate="-6" x="-71.12" y="73.66" rot="MR0"/>
 <instance part="THERM" gate="-1" x="170.18" y="170.18"/>
 <instance part="THERM" gate="-2" x="170.18" y="167.64"/>
 <instance part="THERM" gate="-3" x="170.18" y="160.02"/>
@@ -8578,15 +8579,16 @@ High-power, low thermal resistance package.</description>
 <instance part="IC4" gate="G$1" x="144.78" y="86.36"/>
 <instance part="RGATE2" gate="G$1" x="119.38" y="53.34" rot="R180"/>
 <instance part="U$8" gate="G$1" x="162.56" y="99.06"/>
-<instance part="GND11" gate="1" x="162.56" y="76.2"/>
-<instance part="CACS" gate="G$1" x="180.34" y="88.9"/>
+<instance part="GND11" gate="1" x="162.56" y="60.96"/>
+<instance part="CACS2" gate="G$1" x="180.34" y="88.9"/>
 <instance part="CIN1" gate="G$1" x="-45.72" y="154.94"/>
 <instance part="IC3" gate="G$1" x="71.12" y="147.32"/>
 <instance part="QCHG" gate="G$1" x="111.76" y="35.56" rot="R270"/>
 <instance part="QDIS" gate="G$1" x="127" y="35.56" rot="MR270"/>
 <instance part="GND6" gate="1" x="60.96" y="43.18"/>
 <instance part="RGATE1" gate="G$1" x="104.14" y="48.26" rot="R180"/>
-<instance part="RENAPD" gate="G$1" x="-33.02" y="55.88" rot="R90"/>
+<instance part="RENA" gate="G$1" x="-33.02" y="55.88" rot="R90"/>
+<instance part="CACS1" gate="G$1" x="172.72" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -8641,13 +8643,13 @@ High-power, low thermal resistance package.</description>
 <wire x1="-68.58" y1="86.36" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="86.36" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-60.96" y="114.3"/>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="HOST_BUS" gate="-1" pin="S"/>
 <pinref part="RBUS1" gate="G$1" pin="2"/>
 <wire x1="-91.44" y1="99.06" x2="-91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="83.82" x2="-60.96" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="HOST_BUS" gate="-2" pin="S"/>
 <wire x1="-60.96" y1="83.82" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-60.96" y="86.36"/>
 </segment>
@@ -8681,7 +8683,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="U$8" gate="G$1" pin="VCC"/>
 <wire x1="157.48" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="91.44" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="CACS" gate="G$1" pin="1"/>
+<pinref part="CACS2" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="93.98" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="93.98" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
@@ -8752,13 +8754,13 @@ High-power, low thermal resistance package.</description>
 <junction x="-60.96" y="73.66"/>
 <pinref part="IC2" gate="A" pin="GND"/>
 <wire x1="-25.4" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-4" pin="S"/>
-<pinref part="X1" gate="-6" pin="S"/>
+<pinref part="HOST_BUS" gate="-4" pin="S"/>
+<pinref part="HOST_BUS" gate="-6" pin="S"/>
 <pinref part="RBUS2" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="63.5" x2="-91.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="63.5" x2="-91.44" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-60.96" y="63.5"/>
-<pinref part="RENAPD" gate="G$1" pin="1"/>
+<pinref part="RENA" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="50.8" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="48.26" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-60.96" y="48.26"/>
@@ -8797,15 +8799,16 @@ High-power, low thermal resistance package.</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="157.48" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="83.82" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="CACS" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="81.28" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="CACS2" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="81.28" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="66.04" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 <junction x="162.56" y="81.28"/>
-<pinref part="IC4" gate="G$1" pin="FILT"/>
-<wire x1="157.48" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="86.36" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
-<junction x="162.56" y="83.82"/>
+<pinref part="CACS1" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="66.04" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
+<junction x="162.56" y="66.04"/>
 </segment>
 <segment>
 <pinref part="QCHG" gate="G$1" pin="S"/>
@@ -8839,7 +8842,7 @@ High-power, low thermal resistance package.</description>
 <segment>
 <pinref part="IC2" gate="A" pin="SDAIN"/>
 <wire x1="-68.58" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-5" pin="S"/>
+<pinref part="HOST_BUS" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="SCLIN" class="0">
@@ -8848,7 +8851,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="-38.1" y1="81.28" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="SCLIN"/>
 <wire x1="-38.1" y1="78.74" x2="-25.4" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-3" pin="S"/>
+<pinref part="HOST_BUS" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="BUSENABLE" class="0">
@@ -8856,7 +8859,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="IC2" gate="A" pin="ENABLE"/>
 <wire x1="-40.64" y1="68.58" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="-40.64" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="RENAPD" gate="G$1" pin="2"/>
+<pinref part="RENA" gate="G$1" pin="2"/>
 <wire x1="-33.02" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="68.58" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-33.02" y="68.58"/>
@@ -9118,6 +9121,14 @@ High-power, low thermal resistance package.</description>
 <wire x1="116.84" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <label x="116.84" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="PF5(AIN21/RXD2)"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="FILT"/>
+<pinref part="CACS1" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="86.36" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
