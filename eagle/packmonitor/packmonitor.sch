@@ -6311,152 +6311,6 @@ package type P</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMT-JUMPER_2_NO_NO-SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
-</polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
-</polygon>
-</package>
-<package name="SMT-JUMPER_2_NO_SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_SILK_ROUND">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
-</polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
-</polygon>
-<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SMT-JUMPER_2_NO">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
-<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
-
-&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
-&lt;p&gt;SparkFun Product that uses the round pads:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -8634,10 +8488,6 @@ High-power, low thermal resistance package.</description>
 <part name="GND3" library="bt" deviceset="GND" device=""/>
 <part name="U$3" library="bt" deviceset="VCC" device=""/>
 <part name="GND5" library="bt" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="A1"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="A1"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="A2"/>
-<part name="U$4" library="bt" deviceset="VCC" device=""/>
 <part name="CAVCC" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="UPDI" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="U$5" library="bt" deviceset="VCC" device=""/>
@@ -8648,8 +8498,6 @@ High-power, low thermal resistance package.</description>
 <part name="PACK" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="OUT" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="IC2" library="NXP_By_element14_Batch_1" deviceset="PCA9511AD,118" device="" value="TCA4311A"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="U$1" library="bt" deviceset="VCC" device=""/>
 <part name="CTCA" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND8" library="bt" deviceset="GND" device=""/>
@@ -8677,6 +8525,7 @@ High-power, low thermal resistance package.</description>
 <part name="QDIS" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="FDS6630A" value="NFET"/>
 <part name="GND6" library="bt" deviceset="GND" device=""/>
 <part name="RGATE1" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
+<part name="RENAPD" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8686,26 +8535,20 @@ High-power, low thermal resistance package.</description>
 <instance part="U$2" gate="G$1" x="-7.62" y="167.64"/>
 <instance part="GND2" gate="1" x="-7.62" y="99.06"/>
 <instance part="CVCC" gate="G$1" x="-7.62" y="142.24"/>
-<instance part="IC1" gate="G$1" x="48.26" y="15.24"/>
-<instance part="GND3" gate="1" x="73.66" y="-5.08"/>
-<instance part="U$3" gate="G$1" x="73.66" y="35.56"/>
-<instance part="GND5" gate="1" x="17.78" y="-5.08"/>
-<instance part="JP1" gate="G$1" x="-15.24" y="17.78"/>
-<instance part="JP2" gate="G$1" x="-15.24" y="7.62"/>
-<instance part="JP3" gate="G$1" x="-15.24" y="-2.54"/>
-<instance part="U$4" gate="G$1" x="-27.94" y="27.94"/>
+<instance part="IC1" gate="G$1" x="-22.86" y="17.78"/>
+<instance part="GND3" gate="1" x="2.54" y="-2.54"/>
+<instance part="U$3" gate="G$1" x="2.54" y="38.1"/>
+<instance part="GND5" gate="1" x="-38.1" y="-2.54"/>
 <instance part="CAVCC" gate="G$1" x="0" y="129.54"/>
 <instance part="UPDI" gate="J$1" x="-53.34" y="195.58"/>
 <instance part="U$5" gate="G$1" x="-43.18" y="203.2"/>
 <instance part="GND4" gate="1" x="-43.18" y="187.96"/>
-<instance part="CEEP" gate="G$1" x="81.28" y="17.78"/>
-<instance part="GND1" gate="1" x="-60.96" y="55.88"/>
+<instance part="CEEP" gate="G$1" x="10.16" y="20.32"/>
+<instance part="GND1" gate="1" x="-60.96" y="38.1"/>
 <instance part="U$6" gate="G$1" x="-33.02" y="116.84"/>
 <instance part="PACK" gate="G$1" x="91.44" y="71.12" rot="R180"/>
 <instance part="OUT" gate="G$1" x="154.94" y="22.86" rot="MR90"/>
 <instance part="IC2" gate="A" x="-7.62" y="76.2"/>
-<instance part="R1" gate="G$1" x="-53.34" y="93.98" rot="R90"/>
-<instance part="R2" gate="G$1" x="-33.02" y="93.98" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-38.1" y="162.56"/>
 <instance part="CTCA" gate="G$1" x="-22.86" y="109.22"/>
 <instance part="GND8" gate="1" x="-22.86" y="99.06"/>
@@ -8743,6 +8586,7 @@ High-power, low thermal resistance package.</description>
 <instance part="QDIS" gate="G$1" x="127" y="35.56" rot="MR270"/>
 <instance part="GND6" gate="1" x="60.96" y="43.18"/>
 <instance part="RGATE1" gate="G$1" x="104.14" y="48.26" rot="R180"/>
+<instance part="RENAPD" gate="G$1" x="-33.02" y="55.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8750,28 +8594,14 @@ High-power, low thermal resistance package.</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="27.94" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="30.48" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="30.48" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="33.02" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="CEEP" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="30.48" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
-<junction x="73.66" y="30.48"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="-20.32" y1="17.78" x2="-27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="17.78" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="7.62" x2="-27.94" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="7.62" x2="-27.94" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-27.94" y="17.78"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-2.54" x2="-27.94" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-2.54" x2="-27.94" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-27.94" y="7.62"/>
+<wire x1="2.54" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
+<junction x="2.54" y="33.02"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
@@ -8797,9 +8627,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="-43.18" y1="198.12" x2="-43.18" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U$6" gate="G$1" pin="VCC"/>
-<wire x1="-33.02" y1="99.06" x2="-33.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="VCC"/>
 <wire x1="-33.02" y1="114.3" x2="-33.02" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="83.82" x2="-27.94" y2="83.82" width="0.1524" layer="91"/>
@@ -8812,16 +8640,16 @@ High-power, low thermal resistance package.</description>
 <junction x="-27.94" y="114.3"/>
 <wire x1="-68.58" y1="86.36" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="86.36" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="99.06" x2="-53.34" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-60.96" y="114.3"/>
 <pinref part="X1" gate="-1" pin="S"/>
 <pinref part="RBUS1" gate="G$1" pin="2"/>
 <wire x1="-91.44" y1="99.06" x2="-91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="114.3" x2="-53.34" y2="114.3" width="0.1524" layer="91"/>
-<junction x="-53.34" y="114.3"/>
+<wire x1="-33.02" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="83.82" x2="-60.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="-60.96" y1="83.82" x2="-60.96" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-60.96" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
@@ -8863,20 +8691,32 @@ High-power, low thermal resistance package.</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="55.88" y1="2.54" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.1524" layer="91"/>
 <pinref part="CEEP" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="2.54" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
-<junction x="73.66" y="2.54"/>
+<wire x1="2.54" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
+<junction x="2.54" y="5.08"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="WP"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="35.56" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="20.32" x2="17.78" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="22.86" x2="-38.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="22.86" x2="-38.1" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="A0"/>
+<wire x1="-38.1" y1="17.78" x2="-38.1" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="15.24" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="12.7" x2="-38.1" y2="0" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="12.7" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-38.1" y="12.7"/>
+<pinref part="IC1" gate="G$1" pin="A1"/>
+<wire x1="-35.56" y1="15.24" x2="-38.1" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-38.1" y="15.24"/>
+<pinref part="IC1" gate="G$1" pin="A2"/>
+<wire x1="-35.56" y1="17.78" x2="-38.1" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-38.1" y="17.78"/>
 </segment>
 <segment>
 <pinref part="CVCC" gate="G$1" pin="2"/>
@@ -8905,22 +8745,23 @@ High-power, low thermal resistance package.</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-68.58" y1="73.66" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="73.66" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="63.5" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="63.5" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="48.26" x2="-60.96" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="78.74" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="78.74" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-60.96" y="73.66"/>
-<wire x1="-68.58" y1="83.82" x2="-60.96" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="83.82" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-60.96" y="78.74"/>
 <pinref part="IC2" gate="A" pin="GND"/>
 <wire x1="-25.4" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
 <pinref part="X1" gate="-4" pin="S"/>
 <pinref part="X1" gate="-6" pin="S"/>
 <pinref part="RBUS2" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="63.5" x2="-91.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="63.5" x2="-91.44" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-60.96" y="63.5"/>
+<pinref part="RENAPD" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="50.8" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="48.26" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-60.96" y="48.26"/>
 </segment>
 <segment>
 <pinref part="CTCA" gate="G$1" pin="2"/>
@@ -8961,6 +8802,10 @@ High-power, low thermal resistance package.</description>
 <wire x1="162.56" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 <junction x="162.56" y="81.28"/>
+<pinref part="IC4" gate="G$1" pin="FILT"/>
+<wire x1="157.48" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="86.36" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
+<junction x="162.56" y="83.82"/>
 </segment>
 <segment>
 <pinref part="QCHG" gate="G$1" pin="S"/>
@@ -8981,42 +8826,6 @@ High-power, low thermal resistance package.</description>
 <junction x="81.28" y="68.58"/>
 </segment>
 </net>
-<net name="A0" class="0">
-<segment>
-<wire x1="-5.08" y1="17.78" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
-<label x="-5.08" y="17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="A0"/>
-<wire x1="30.48" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
-<label x="30.48" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A1" class="0">
-<segment>
-<wire x1="-5.08" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
-<label x="-5.08" y="7.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="A1"/>
-<wire x1="30.48" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
-<label x="30.48" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A2" class="0">
-<segment>
-<wire x1="-5.08" y1="-2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-5.08" y="-2.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="A2"/>
-<wire x1="30.48" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
-<label x="30.48" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="UPDI" class="0">
 <segment>
 <pinref part="UPDI" gate="J$1" pin="2"/>
@@ -9026,14 +8835,14 @@ High-power, low thermal resistance package.</description>
 <pinref part="IC3" gate="G$1" pin="UPDI"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="SDAIN" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="SDAIN"/>
 <wire x1="-68.58" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-5" pin="S"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="SCLIN" class="0">
 <segment>
 <wire x1="-68.58" y1="81.28" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="81.28" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
@@ -9044,24 +8853,30 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="BUSENABLE" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="88.9" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="ENABLE"/>
-<wire x1="-53.34" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="68.58" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-53.34" y="68.58"/>
-<label x="-63.5" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="68.58" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="-40.64" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="RENAPD" gate="G$1" pin="2"/>
+<wire x1="-33.02" y1="68.58" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="68.58" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-33.02" y="68.58"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PD2(A2/AIN2/AC-P0/TCA0/2-IN2)"/>
+<wire x1="114.3" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
+<label x="114.3" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BUSREADY" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="READY"/>
-<wire x1="-38.1" y1="71.12" x2="-33.02" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-33.02" y="71.12"/>
-<label x="-38.1" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="-33.02" y1="88.9" x2="-33.02" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
+<label x="-40.64" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PD1(A1/AIN1/AC-P3/TCA0/2-IN1)"/>
+<wire x1="114.3" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="114.3" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -9075,8 +8890,9 @@ High-power, low thermal resistance package.</description>
 <label x="-96.52" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="127" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
-<label x="127" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="114.3" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC3" gate="G$1" pin="PD0(A0/AIN0/2-IN0/TCA0)"/>
+<wire x1="114.3" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PACK+" class="0">
@@ -9175,6 +8991,11 @@ High-power, low thermal resistance package.</description>
 <wire x1="165.1" y1="88.9" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
 <label x="165.1" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PF1(AIN17/RXD2/3IN1/TOSC2)"/>
+<wire x1="22.86" y1="165.1" x2="30.48" y2="165.1" width="0.1524" layer="91"/>
+<label x="22.86" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SDA_H" class="0">
 <segment>
@@ -9184,8 +9005,8 @@ High-power, low thermal resistance package.</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
-<wire x1="68.58" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-<label x="68.58" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="-2.54" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
+<label x="-2.54" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL_H" class="0">
@@ -9196,8 +9017,8 @@ High-power, low thermal resistance package.</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
-<wire x1="30.48" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<label x="30.48" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="25.4" x2="-35.56" y2="25.4" width="0.1524" layer="91"/>
+<label x="-40.64" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA_C" class="0">
