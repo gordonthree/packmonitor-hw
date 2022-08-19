@@ -8527,11 +8527,11 @@ High-power, low thermal resistance package.</description>
 <part name="RGATE1" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
 <part name="RENA" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="CACS1" library="rcl" deviceset="C-US" device="C0603" value="1n"/>
-<part name="BUSPU1" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
-<part name="BUSPU2" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
 <part name="U$4" library="bt" deviceset="VCC" device=""/>
-<part name="BUSPU3" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
-<part name="BUSPU4" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
 </parts>
 <sheets>
 <sheet>
@@ -8594,11 +8594,11 @@ High-power, low thermal resistance package.</description>
 <instance part="RGATE1" gate="G$1" x="104.14" y="48.26" rot="R180"/>
 <instance part="RENA" gate="G$1" x="-33.02" y="55.88" rot="R90"/>
 <instance part="CACS1" gate="G$1" x="172.72" y="73.66"/>
-<instance part="BUSPU1" gate="G$1" x="124.46" y="190.5" rot="R90"/>
-<instance part="BUSPU2" gate="G$1" x="129.54" y="177.8" rot="R90"/>
+<instance part="R2" gate="G$1" x="124.46" y="190.5" rot="R90"/>
+<instance part="R1" gate="G$1" x="129.54" y="177.8" rot="R90"/>
 <instance part="U$4" gate="G$1" x="129.54" y="213.36"/>
-<instance part="BUSPU3" gate="G$1" x="99.06" y="203.2" rot="R90"/>
-<instance part="BUSPU4" gate="G$1" x="106.68" y="195.58" rot="R90"/>
+<instance part="R3" gate="G$1" x="99.06" y="203.2" rot="R90"/>
+<instance part="R4" gate="G$1" x="106.68" y="195.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8700,19 +8700,19 @@ High-power, low thermal resistance package.</description>
 <junction x="162.56" y="93.98"/>
 </segment>
 <segment>
-<pinref part="BUSPU2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="182.88" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="BUSPU1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="200.66" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="200.66" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
 <junction x="129.54" y="200.66"/>
 <pinref part="U$4" gate="G$1" pin="VCC"/>
-<pinref part="BUSPU3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="208.28" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="213.36" x2="106.68" y2="213.36" width="0.1524" layer="91"/>
 <junction x="129.54" y="213.36"/>
-<pinref part="BUSPU4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="213.36" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="200.66" x2="106.68" y2="213.36" width="0.1524" layer="91"/>
 <junction x="106.68" y="213.36"/>
@@ -9033,7 +9033,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="114.3" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <label x="114.3" y="180.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="PA2(SDA0/0-IN2/TCBO)"/>
-<pinref part="BUSPU3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="180.34" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="198.12" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <junction x="99.06" y="180.34"/>
@@ -9049,7 +9049,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="114.3" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
 <label x="114.3" y="177.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="PA3(SCL0/0-OUT/TCB1)"/>
-<pinref part="BUSPU4" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="190.5" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
 <junction x="106.68" y="177.8"/>
@@ -9065,7 +9065,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="IC3" gate="G$1" pin="PC2(SCK1/SDA1/1-IN2)"/>
 <wire x1="132.08" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
 <label x="132.08" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="BUSPU1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="154.94" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
 <junction x="124.46" y="154.94"/>
@@ -9081,7 +9081,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="IC3" gate="G$1" pin="PC3(SS1/SCL0/1-OUT)"/>
 <wire x1="132.08" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <label x="132.08" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="BUSPU2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="152.4" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
 <junction x="129.54" y="152.4"/>
