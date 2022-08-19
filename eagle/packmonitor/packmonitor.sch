@@ -8471,6 +8471,192 @@ High-power, low thermal resistance package.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="texas">
+<description>&lt;b&gt;Texas Instruments Devices&lt;/b&gt;&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DBZ_R-PDSO-G3">
+<description>&lt;b&gt;DBZ (R-PDSO-G3)&lt;/b&gt; SOT-23&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
+<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
+</package>
+<package name="DCK_R-PDSO-G5">
+<description>&lt;b&gt;DCK (R-PDSO-G5)&lt;/b&gt; SC-70&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
+<wire x1="0.975" y1="-0.6" x2="-0.975" y2="-0.6" width="0.2032" layer="51"/>
+<wire x1="-0.975" y1="-0.6" x2="-0.975" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.975" y1="0.6" x2="0.975" y2="0.6" width="0.2032" layer="51"/>
+<wire x1="0.975" y1="0.6" x2="0.975" y2="-0.6" width="0.2032" layer="21"/>
+<smd name="4" x="0.65" y="0.95" dx="0.35" dy="0.8" layer="1"/>
+<smd name="5" x="-0.65" y="0.95" dx="0.35" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.95" dx="0.35" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="-0.95" dx="0.35" dy="0.8" layer="1"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.35" dy="0.8" layer="1"/>
+<text x="-1.27" y="1.397" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="0.5" y1="0.675" x2="0.8" y2="1.2" layer="51"/>
+<rectangle x1="-0.8" y1="0.675" x2="-0.5" y2="1.2" layer="51"/>
+<rectangle x1="-0.8" y1="-1.2" x2="-0.5" y2="-0.675" layer="51"/>
+<rectangle x1="-0.15" y1="-1.2" x2="0.15" y2="-0.675" layer="51"/>
+<rectangle x1="0.5" y1="-1.2" x2="0.8" y2="-0.675" layer="51"/>
+<rectangle x1="-1.016" y1="-0.508" x2="-0.127" y2="0" layer="21"/>
+</package>
+<package name="LP_O-PBCY-W3">
+<description>&lt;b&gt;LP (O-PBCY-W3)&lt;/b&gt; TO-92/TO-226&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
+<wire x1="-2.1" y1="-1.5" x2="2.1" y2="-1.5" width="0.2032" layer="51" curve="-250.988591"/>
+<wire x1="-2.1" y1="-1.5" x2="2.1" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="-1.5" x2="-2.4" y2="-0.95" width="0.2032" layer="21" curve="-16.054475"/>
+<wire x1="-2.425" y1="0.875" x2="2.425" y2="0.875" width="0.2032" layer="21" curve="-140.126391"/>
+<wire x1="2.1" y1="-1.5" x2="2.4" y2="-0.95" width="0.2032" layer="21" curve="16.054475"/>
+<pad name="3" x="2.54" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.4"/>
+<pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.4"/>
+<text x="-2.159" y="-3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LM4041">
+<wire x1="1.27" y1="1.905" x2="1.27" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.524" x2="-1.27" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.524" x2="-1.27" y2="1.143" width="0.254" layer="94"/>
+<text x="2.794" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.794" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="1.524"/>
+<vertex x="-1.27" y="-0.762"/>
+<vertex x="1.27" y="-0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM4041" prefix="IC">
+<description>&lt;b&gt;PRECISION MICROPOWER SHUNT VOLTAGE REFERENCE&lt;/b&gt;&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
+<gates>
+<gate name="G$1" symbol="LM4041" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBZ" package="DBZ_R-PDSO-G3">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name="A12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041A12IDBZR" constant="no"/>
+<attribute name="OC_FARNELL" value="1407949" constant="no"/>
+<attribute name="OC_NEWARK" value="58K5875" constant="no"/>
+</technology>
+<technology name="B12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041B12IDBZR" constant="no"/>
+<attribute name="OC_FARNELL" value="1575212" constant="no"/>
+<attribute name="OC_NEWARK" value="58K5882" constant="no"/>
+</technology>
+<technology name="C12">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="LM4041C12QDBZT" constant="no"/>
+<attribute name="OC_FARNELL" value="1771733" constant="no"/>
+<attribute name="OC_NEWARK" value="43K3376" constant="no"/>
+</technology>
+<technology name="D12">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="LM4041D12QDBZT" constant="no"/>
+<attribute name="OC_FARNELL" value="1755118" constant="no"/>
+<attribute name="OC_NEWARK" value="43K3381" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DCK" package="DCK_R-PDSO-G5">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="A12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041A12IDCKR" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="58K5877" constant="no"/>
+</technology>
+<technology name="B12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041B12IDCKR" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="58K5884" constant="no"/>
+</technology>
+<technology name="C12">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="LM4041C12IDCKR" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="43K3374" constant="no"/>
+</technology>
+<technology name="D12">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="LM4041D12IDCKR" constant="no"/>
+<attribute name="OC_FARNELL" value="1575129" constant="no"/>
+<attribute name="OC_NEWARK" value="43K3379" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LP" package="LP_O-PBCY-W3">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="A12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="9486119" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="B12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="C12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041C12ILP" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="18M2429" constant="no"/>
+</technology>
+<technology name="D12">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LM4041D12ILP" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="18M2431" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8532,6 +8718,10 @@ High-power, low thermal resistance package.</description>
 <part name="U$4" library="bt" deviceset="VCC" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="IC5" library="texas" deviceset="LM4041" device="LP" technology="A12"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="4K7"/>
+<part name="U$9" library="bt" deviceset="VCC" device=""/>
+<part name="GND7" library="bt" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8563,7 +8753,7 @@ High-power, low thermal resistance package.</description>
 <instance part="TR1" gate="G$1" x="154.94" y="167.64"/>
 <instance part="TR2" gate="G$1" x="154.94" y="157.48"/>
 <instance part="TR3" gate="G$1" x="154.94" y="147.32"/>
-<instance part="GND10" gate="1" x="142.24" y="137.16"/>
+<instance part="GND10" gate="1" x="147.32" y="139.7"/>
 <instance part="HOST_BUS" gate="-1" x="-71.12" y="86.36" rot="MR0"/>
 <instance part="HOST_BUS" gate="-2" x="-71.12" y="83.82" rot="MR0"/>
 <instance part="HOST_BUS" gate="-3" x="-71.12" y="81.28" rot="MR0"/>
@@ -8594,11 +8784,15 @@ High-power, low thermal resistance package.</description>
 <instance part="RGATE1" gate="G$1" x="104.14" y="48.26" rot="R180"/>
 <instance part="RENA" gate="G$1" x="-33.02" y="55.88" rot="R90"/>
 <instance part="CACS1" gate="G$1" x="172.72" y="73.66"/>
-<instance part="R2" gate="G$1" x="124.46" y="190.5" rot="R90"/>
-<instance part="R1" gate="G$1" x="129.54" y="177.8" rot="R90"/>
-<instance part="U$4" gate="G$1" x="129.54" y="213.36"/>
-<instance part="R3" gate="G$1" x="99.06" y="203.2" rot="R90"/>
-<instance part="R4" gate="G$1" x="106.68" y="195.58" rot="R90"/>
+<instance part="R2" gate="G$1" x="119.38" y="190.5" rot="R90"/>
+<instance part="R1" gate="G$1" x="124.46" y="177.8" rot="R90"/>
+<instance part="U$4" gate="G$1" x="124.46" y="213.36"/>
+<instance part="R3" gate="G$1" x="99.06" y="205.74" rot="R90"/>
+<instance part="R4" gate="G$1" x="104.14" y="195.58" rot="R90"/>
+<instance part="IC5" gate="G$1" x="139.7" y="119.38"/>
+<instance part="R5" gate="G$1" x="139.7" y="139.7" rot="R90"/>
+<instance part="U$9" gate="G$1" x="139.7" y="149.86"/>
+<instance part="GND7" gate="1" x="139.7" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -8701,21 +8895,26 @@ High-power, low thermal resistance package.</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="182.88" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="182.88" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="200.66" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="200.66" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
-<junction x="129.54" y="200.66"/>
+<wire x1="124.46" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="200.66" x2="119.38" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="200.66" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
+<junction x="124.46" y="200.66"/>
 <pinref part="U$4" gate="G$1" pin="VCC"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="208.28" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="213.36" x2="106.68" y2="213.36" width="0.1524" layer="91"/>
-<junction x="129.54" y="213.36"/>
+<wire x1="99.06" y1="210.82" x2="99.06" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="213.36" x2="104.14" y2="213.36" width="0.1524" layer="91"/>
+<junction x="124.46" y="213.36"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="213.36" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="200.66" x2="106.68" y2="213.36" width="0.1524" layer="91"/>
-<junction x="106.68" y="213.36"/>
+<wire x1="104.14" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="200.66" x2="104.14" y2="213.36" width="0.1524" layer="91"/>
+<junction x="104.14" y="213.36"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<wire x1="139.7" y1="144.78" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8811,16 +9010,16 @@ High-power, low thermal resistance package.</description>
 <segment>
 <pinref part="TR3" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="149.86" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="147.32" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="147.32" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="TR2" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="157.48" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<junction x="142.24" y="147.32"/>
+<wire x1="149.86" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="157.48" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<junction x="147.32" y="147.32"/>
 <pinref part="TR1" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="167.64" x2="142.24" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="167.64" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
-<junction x="142.24" y="157.48"/>
+<wire x1="149.86" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<junction x="147.32" y="157.48"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -8855,6 +9054,11 @@ High-power, low thermal resistance package.</description>
 <pinref part="PACK" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 <junction x="81.28" y="68.58"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="A"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="139.7" y1="116.84" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UPDI" class="0">
@@ -9030,12 +9234,12 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="SDA_H" class="0">
 <segment>
-<wire x1="114.3" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
-<label x="114.3" y="180.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
+<label x="109.22" y="180.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="PA2(SDA0/0-IN2/TCBO)"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="180.34" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="198.12" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="200.66" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <junction x="99.06" y="180.34"/>
 </segment>
 <segment>
@@ -9046,13 +9250,13 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="SCL_H" class="0">
 <segment>
-<wire x1="114.3" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
-<label x="114.3" y="177.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="177.8" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
+<label x="109.22" y="177.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="PA3(SCL0/0-OUT/TCB1)"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="190.5" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
-<junction x="106.68" y="177.8"/>
+<wire x1="104.14" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="190.5" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
+<junction x="104.14" y="177.8"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
@@ -9063,12 +9267,12 @@ High-power, low thermal resistance package.</description>
 <net name="SDA_C" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PC2(SCK1/SDA1/1-IN2)"/>
-<wire x1="132.08" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<label x="132.08" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+<label x="127" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="154.94" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
-<junction x="124.46" y="154.94"/>
+<wire x1="119.38" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="154.94" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
+<junction x="119.38" y="154.94"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="SDAOUT"/>
@@ -9079,12 +9283,12 @@ High-power, low thermal resistance package.</description>
 <net name="SCL_C" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PC3(SS1/SCL0/1-OUT)"/>
-<wire x1="132.08" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<label x="132.08" y="152.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<label x="127" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="152.4" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
-<junction x="129.54" y="152.4"/>
+<wire x1="124.46" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="152.4" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
+<junction x="124.46" y="152.4"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="SCLOUT"/>
@@ -9173,6 +9377,17 @@ High-power, low thermal resistance package.</description>
 <pinref part="CACS1" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="86.36" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PD7(A7/AIN7/AC-N2/AREF)"/>
+<pinref part="IC5" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="127" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="127" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
+<junction x="139.7" y="127"/>
 </segment>
 </net>
 </nets>
